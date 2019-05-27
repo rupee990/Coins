@@ -2,7 +2,9 @@
 Coin Spawner for StitchHeads Studio
 
 The Coins
+
 ///////////////////////////////////////////////////////////////////////////////
+
 Coin Class:
 
 Contains 3 variables the user can define:
@@ -13,6 +15,7 @@ Contains 3 variables the user can define:
 The coin has a Sphere Collider with a radius of 64.0f which is used to pick up the coin.
 
 ///////////////////////////////////////////////////////////////////////////////
+
 Coin Spawner Class:
 
 The Coin spawner contains The basic spawning variables such as:
@@ -31,4 +34,5 @@ Some properties are used to adjust the checks such as:
 From the Spawner the User Can also change the direction of an arrow, which the coin will inherit as pickup direction. I added 3 bools aswell which when ticked will get a random direction on that axis.
 
 Finally The user can adjust the Coin's Radius if they want the collider to be bigger or smaller.
+
 ///////////////////////////////////////////////////////////////////////////////
